@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App - jQuery</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        hr{
+            background-color:  rgb(58, 51, 57);
+            height: 2px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1">Welcome to Movie Ra - View</h1>
+    <p>Your opinion is important. You should tell the world <i> exactly </i> how you feel about things - Your mom was 
+        right - YOU ARE SPECIAL. <br>
+        What movie did you recently see? How would you rate it? 0 - means your ex should
+    DEFINITELY see it on a firstdate. 10 - means you should see it on a firstdate, and pretend that you haven't seen it already!</p>
+    <hr>
+
+    <form id="onlyForm">
+        <div class="form">
+            What'd ya see?
+        <input type="input" name="" id="movie" placeholder="Movie Title">
+        </div>
+        
+        <div class="form">
+            How'd ya rate it?
+        <input type="number" id="rating" min="0" max="10" placeholder="0-10">
+        </div>
+        <button id="btn" type="click">Submit Your Rating</button>
+    </form>
+    <hr>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+ body{
+    background-color: rgb(31, 38, 44);
+    margin-left: 20px;
+ }
+
+.h1{
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: -36px;
+
+}
+
+.form{
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+ 
+}
+
+p{
+    color: rgb(255,55,158);
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+
+}
+
+#rating{
+    width: 60px;
+}
+
+.remove{
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 5px;
+    background-color: rgb(31, 38, 44);
+    color: rgb(168, 168, 168);
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    position: relative;
+    bottom: 7px;
+
+}
+#movie{
+    position: relative;
+    bottom: 6px;
+}
+#rating{
+    position: relative;
+    bottom: 6px;
+}
